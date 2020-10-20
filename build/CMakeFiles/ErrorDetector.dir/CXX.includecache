@@ -1,0 +1,114 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/checksum/CHECKSUM.cpp
+CHECKSUM.h
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/checksum/CHECKSUM.h
+../util.h
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/util.h
+iostream
+-
+
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/checksum/CHECKSUM.h
+queue
+-
+vector
+-
+string
+-
+utility
+-
+
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/crc/CRC.cpp
+CRC.h
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/crc/CRC.h
+../util.h
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/util.h
+string
+-
+iostream
+-
+queue
+-
+
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/crc/CRC.h
+string
+-
+queue
+-
+
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/lrc/LRC.cpp
+LRC.h
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/lrc/LRC.h
+../util.h
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/util.h
+vector
+-
+string
+-
+iostream
+-
+cassert
+-
+
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/lrc/LRC.h
+string
+-
+queue
+-
+
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/util.cpp
+util.h
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/util.h
+vector
+-
+string
+-
+iostream
+-
+fstream
+-
+random
+-
+
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/util.h
+string
+-
+vector
+-
+
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/vrc/VRC.cpp
+VRC.h
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/vrc/VRC.h
+string
+-
+cassert
+-
+iostream
+-
+
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/vrc/VRC.h
+queue
+-
+string
+-
+
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/main.cpp
+iostream
+-
+detectors/lrc/LRC.h
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/lrc/LRC.h
+detectors/vrc/VRC.h
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/vrc/VRC.h
+detectors/crc/CRC.h
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/crc/CRC.h
+detectors/checksum/CHECKSUM.h
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/checksum/CHECKSUM.h
+detectors/util.h
+/home/anwesha/Downloads/Sem 6/Networks/Lab/ASS1/ErrorDetector/detectors/util.h
+
